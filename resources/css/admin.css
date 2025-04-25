@@ -1,0 +1,22 @@
+/* Submenú seleccionado */
+.nav-sidebar .nav-item.menu-open > .nav-link {
+    background-color: #4a90e2 !important; /* Azul suave */
+    color: white !important;
+}
+
+/* Submenú de los elementos cuando están activos */
+.nav-sidebar .nav-item.menu-open .nav-treeview .nav-item .nav-link.active {
+    background-color: #4a90e2 !important; /* Azul suave */
+    color: white !important;
+}
+
+/* Cambiar color de los submenús al pasar el ratón */
+.nav-sidebar .nav-item.menu-open .nav-treeview .nav-item .nav-link:hover {
+    background-color: #3c7ec1 !important; /* Azul más suave */
+    color: white !important;
+}
+
+/* Cambiar color del ícono en el submenú */
+.nav-sidebar .nav-item.menu-open .nav-treeview .nav-item .nav-link .nav-icon {
+    color: white !important;
+}
